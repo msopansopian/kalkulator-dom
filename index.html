@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Kalkulator DOM</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+    <script src="latihan.js"></script>
+</head>
+<body>
+	<div class="calculator">
+		<div class="input">
+			<input type="text" id="num1">
+			<input type="text" id="num2">
+		</div>
+		<div class="operations">
+			<button onclick="add()">+</button>
+			<button onclick="subtract()">-</button>
+			<button onclick="multiply()">*</button>
+			<button onclick="divide()">/</button>
+			<button onclick="reset()">Reset</button>
+		</div>
+		<div class="output">
+			<input type="text" id="result" readonly>
+		</div>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
